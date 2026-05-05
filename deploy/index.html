@@ -106,9 +106,12 @@
     </div>
 
     <div class="featured-row">
-      <article class="featured" data-video="">
+      <article class="featured" data-video="7qG8P_oisHw">
         <div class="featured-media">
-          <img src="./assets/images/fableborne-cover.jpg" alt="Fableborne — key art cover" loading="lazy" decoding="async"/>
+          <picture><source srcset="./assets/images/fableborne-cover.webp" type="image/webp"/><img src="./assets/images/fableborne-cover.jpg" alt="Fableborne — key art cover" loading="lazy" decoding="async"/></picture>
+          <iframe data-src="https://www.youtube.com/embed/7qG8P_oisHw?autoplay=1&rel=0&modestbranding=1&playsinline=1" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Fableborne gameplay video"></iframe>
+          <button class="card-media-link" type="button" aria-label="Play Fableborne gameplay"></button>
+          <button class="play-btn" type="button" tabindex="-1" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="M24 16L48 32L24 48Z" fill="#fff"/></svg></button>
         </div>
         <div class="featured-body">
           <div class="tag-row">
@@ -117,8 +120,8 @@
             <span class="tag">Unity</span>
             <span class="tag">Mobile</span>
           </div>
-          <h3>Fableborne</h3>
-          <p>A work-in-progress title at PixionGames — currently in development. More details, screenshots and a gameplay trailer coming soon.</p>
+          <h3>Fableborne 3D</h3>
+          <p>An advanced RPG with a deep skill system, strong AI, and online battles. Players can build defenses around their castle for others to challenge, as well as attack enemy castles themselves. The game features 6 unique heroes and over 30 different enemies and bosses, each with 2–7 abilities.</p>
           <div class="hl-dl"><span class="hl-dl-k">Downloads</span><span class="hl-dl-v">100K+</span></div>
           <div class="card-links">
             <a class="lk" href="https://play.google.com/store/apps/details?id=com.PixionGames.Fableborne" target="_blank" rel="noopener" aria-label="Fableborne on Google Play"><span class="lk-k">Google Play</span><span class="lk-v">LINK <svg viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 8L8 2M8 2H4M8 2V6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></span></a>
@@ -128,10 +131,10 @@
 
       <article class="featured" data-video="saBKBVgFxjY">
         <div class="featured-media">
-          <img src="./assets/images/thumbs/saBKBVgFxjY.jpg" alt="Snake vs Block gameplay preview" loading="lazy" decoding="async"/>
+          <picture><source srcset="./assets/images/snake-vs-block-cover.webp" type="image/webp"/><img src="./assets/images/snake-vs-block-cover.png" class="cover-portrait" alt="Snake vs Block gameplay preview" loading="lazy" decoding="async"/></picture>
           <iframe data-src="https://www.youtube.com/embed/saBKBVgFxjY?autoplay=1&rel=0&modestbranding=1&playsinline=1" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Snake vs Block gameplay video"></iframe>
-          <a class="card-yt" href="https://youtu.be/saBKBVgFxjY" target="_blank" rel="noopener" aria-label="Watch Snake vs Block on YouTube" title="Open on YouTube"><svg viewBox="0 0 14 10" fill="currentColor" aria-hidden="true"><path d="M13.7 1.6C13.5 0.9 13 0.4 12.3 0.2C11 0 7 0 7 0C7 0 3 0 1.7 0.2C1 0.4 0.5 0.9 0.3 1.6C0 3 0 5 0 5C0 5 0 7 0.3 8.4C0.5 9.1 1 9.6 1.7 9.8C3 10 7 10 7 10C7 10 11 10 12.3 9.8C13 9.6 13.5 9.1 13.7 8.4C14 7 14 5 14 5C14 5 14 3 13.7 1.6ZM5.6 7.1V2.9L9.2 5L5.6 7.1Z"/></svg></a>
-          <button class="play-btn" aria-label="Play Snake vs Block gameplay"><svg viewBox="0 0 10 12" fill="currentColor" aria-hidden="true"><path d="M0 0L10 6L0 12V0Z"/></svg></button>
+          <button class="card-media-link" type="button" aria-label="Play Snake vs Block gameplay"></button>
+          <button class="play-btn" type="button" tabindex="-1" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="M24 16L48 32L24 48Z" fill="#fff"/></svg></button>
         </div>
         <div class="featured-body">
           <div class="tag-row">
@@ -140,8 +143,8 @@
             <span class="tag">Mobile</span>
             <span class="tag">Arcade</span>
           </div>
-          <h3>Snake vs Block</h3>
-          <p>Endless lane-based arcade: grow the snake, break blocks, dodge walls. Clean scoring loop and juice-heavy feedback. Available on iOS and Android.</p>
+          <h3>Snake vs Block 2D</h3>
+          <p>Lane-based arcade: grow the snake, break blocks, dodge walls. Clean scoring loop and juice-heavy feedback.</p>
           <div class="hl-dl"><span class="hl-dl-k">Downloads</span><span class="hl-dl-v">50M+</span></div>
           <div class="card-links">
             <a class="lk" href="https://play.google.com/store/apps/details?id=com.bentostudio.ballsvsblocks" target="_blank" rel="noopener" aria-label="Snake vs Block on Google Play"><span class="lk-k">Google Play</span><span class="lk-v">LINK <svg viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 8L8 2M8 2H4M8 2V6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></span></a>
@@ -180,7 +183,8 @@
   <div class="wrap">
     <div class="section-head">
       <h2 class="section-title" id="prototypes-title"><span class="idx">04 —</span> Prototypes &amp; Test tasks</h2>
-      <p class="section-sub">Smaller games — mechanics, tools and systems tested in isolation.</p>
+      <p class="section-sub">
+</p>
     </div>
     <div class="grid protos" id="protos-grid"></div>
   </div>
@@ -220,3 +224,12 @@
 <script src="./assets/script.js" defer></script>
 </body>
 </html>
+
+<style id="__om-edit-overrides">
+#highlights-grid >[data-video="UIpOPHnSbYY"] .play-btn >svg { width: 48px !important }
+#highlights-grid >[data-video="UIpOPHnSbYY"] .play-btn >svg { width: 96px !important }
+#highlights-grid >[data-video="UIpOPHnSbYY"] .play-btn >svg { width: 180px !important }
+#highlights-grid >[data-video="UIpOPHnSbYY"] .play-btn >svg { width: 86px !important }
+#highlights-grid >[data-video="UIpOPHnSbYY"] .play-btn >svg { height: 86px !important }
+#highlights-grid >[data-video="FJ6DbzCeuvk"] [viewBox="0 0 24 24"] { width: 64px !important }
+</style>
