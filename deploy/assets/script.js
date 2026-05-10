@@ -6,7 +6,6 @@ const GAMES = [
   { id: 'A4Ur4_JWY4U', title: 'Find Pair 3D',    genre: 'Mobile · Puzzle',     desc: 'A comedic matchmaking game where you help each character find a partner based on their preferences. The matches can be highly unpredictable, and the goal is to drag both people into bed to complete each pairing.', tags: ['Unity', 'Mobile', 'Physics'] },
   { id: '5jH3wxJA2N4', title: 'Heroes Collect 3D',   genre: 'Mobile · Strategy',   desc: 'Grid-based army builder with escalating duels. Unit composition, multipliers and risk/reward on every board.', tags: ['Unity', 'Mobile', 'Strategy'] },
   { id: 'iDTOBOaAmJo', title: 'One man war 2D', genre: 'PC · Platformer Shooter', desc: '2D pixel-art platform shooter with a shop and progression. Focus on punchy gunplay, lightweight AI and readable combat.', tags: ['Unity', '2D', 'PC'] },
-  { id: 'xMMSBHL6zt8', title: 'Idle Mars 3D',  genre: 'Sim · Tycoon',        desc: 'Space-colony management sim - oxygen, sleep, food loops, progression trees and isometric building.', tags: ['Unity', 'Mobile', 'Idle Arcade', 'Strategy'] },
   {
     id: '_yXSk80xyBI',
     title: 'Blast Fusion Puzzle 2D',
@@ -55,6 +54,15 @@ const HIGHLIGHTS = [
     }
   },
   {
+    id: 'xMMSBHL6zt8',
+    title: 'Idle Mars 3D',
+    downloads: '1K+',
+    genre: 'Sim · Tycoon',
+    desc: 'Space-colony management sim — oxygen, sleep, food loops, progression trees and isometric building.',
+    tags: ['Unity', 'Mobile', 'Idle Arcade', 'Strategy'],
+    links: {}
+  },
+  {
     id: 'UIpOPHnSbYY',
     title: 'Crazy Tire: Reach the Moon 3D',
     downloads: '1M+',
@@ -64,16 +72,6 @@ const HIGHLIGHTS = [
     links: {
       appstore: 'https://apps.apple.com/ua/app/crazy-tire-reach-the-moon/id1644737533?l=uk',
       play: 'https://play.google.com/store/apps/details?id=com.ketchapp.crazytire'
-    }
-  },
-  {
-    title: 'Armada.io 3D',
-    downloads: '1K+',
-    genre: 'Mobile · .io Action',
-    desc: 'Top-down naval .io game  pick a ship, dominate the seas, climb the leaderboard.',
-    tags: ['Unity', 'Mobile', 'Multiplayer'],
-    links: {
-      appstore: 'https://apps.apple.com/us/app/armada-io/id1539406999'
     }
   },
   {
